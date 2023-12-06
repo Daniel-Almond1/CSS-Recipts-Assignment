@@ -58,11 +58,13 @@ li:nth-child(even) {
     text-align: center;
 }
 
-
 /* BONUS */
 
 /* change the color of each h2 drink name to something you like */
 /* https://htmlcolorcodes.com/color-names/ */
+h2 {
+    color: rgb(73, 73, 150);
+}
 
 
 /* BONUS BONUS */
@@ -73,6 +75,10 @@ make an input for number for the number of times the subscriber would like to be
 
 /* using the attribute selector, change the color of the input in the text fields
 using the attribute selector, change the color of the input in the number field to a different color */
+#name,
+#email {
+    color: rgb(0, 0, 147);
+}
 
 /* BONUS BONUS BONUS*/
 /* Add your own colors and styles */
