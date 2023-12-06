@@ -48,11 +48,15 @@ h2:not(#tagline):hover {
 
 /* in each list alternate each color of the even list items to be sandybrown */
 
-
+li:nth-child(even) {
+    color: sandybrown;
+}
 
 /* select all the elements and align the text to center */
 
-
+* {
+    text-align: center;
+}
 
 
 /* BONUS */
