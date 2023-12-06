@@ -82,3 +82,7 @@ using the attribute selector, change the color of the input in the number field 
 
 /* BONUS BONUS BONUS*/
 /* Add your own colors and styles */
+
+input[type="submit"] {
+    color: red;
+}
