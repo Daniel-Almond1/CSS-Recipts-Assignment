@@ -1,24 +1,38 @@
 /* select the body tag to change the font-family */
 
-
+body{
+    font-family: sans-serif;
+}
 /* select all the section tags to change the color to saddlebrown */
 
- 
+ section{
+    color: saddlebrown;
+ }
 
 /* select the h2 and h3 tags to change the color to chocolate */
 
-
+h2, h3 {
+    color: chocolate;
+}
 
 /* select the h2 with the id of tagline to change the color to brown */
 
+#tagline {
+    color: brown;
 
+}
 
 /* select the element with the class rosy to make the text  bisque colored */
 
+.rosy {
+    color: bisque;
+}
 
 /* select only the list items inside the element with the class of mojito and make them lime colored */
 
-
+.mojito li{
+    color: lime;
+}
 
 /* select the direct child h3 the element with the class pear-rose to change the color to rosybrown */
 
