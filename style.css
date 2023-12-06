@@ -36,11 +36,15 @@ h2, h3 {
 
 /* select the direct child h3 the element with the class pear-rose to change the color to rosybrown */
 
-
+.pear-rose > h3 {
+    color: rosybrown;
+}
 
 /* when hovering over any h2 but not the one with an id of tagline, make the color goldenrod */
 
-
+h2:not(#tagline):hover {
+    color: goldenrod;
+}
 
 /* in each list alternate each color of the even list items to be sandybrown */
 
